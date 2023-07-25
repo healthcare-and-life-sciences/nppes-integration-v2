@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HLS-A NPPES Integration</fullName>
+    <description>NPPES integration flow from the HLS-A Team</description>
+    <types>
+        <members>NPPESexternalcred</members>
+        <name>ExternalCredential</name>
+    </types>
+    <types>
+        <members>getNPIwithNPPES</members>
+        <name>ExternalServiceRegistration</name>
+    </types>
+    <types>
+        <members>PNM_NPI_NPPES_Check</members>
+        <members>PNM_Retrieve_NPPES_Data</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>NPPES</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>External_Credentials</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>58.0</version>
+</Package>
